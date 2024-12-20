@@ -1,0 +1,324 @@
+@charset "ISO-8859-1";
+
+.title {
+  font-size:100px;
+  position: absolute;
+  top : 150px;
+  left: 20%;
+}
+
+.register_title {
+  font-size:80px;
+  position: absolute;
+  top : 20px;
+  left: 38%;
+}
+
+.login_title {
+  font-size:100px;
+  position: absolute;
+  top : 70px;
+  left: 40%;
+}
+
+.register_input {
+  position: absolute;
+  top: 230px;
+  left: 25%;
+  display:block;
+  width: 800px;
+  height:40px;
+  border-radius: 20px;
+  position: relative;
+  padding: 4px 18px 0;
+  margin-bottom:60px;
+}
+
+.login_input {
+  position: absolute;
+  top: 385px;
+  left: 25%;
+  display:block;
+  width: 800px;
+  height:40px;
+  border-radius: 20px;
+  position: relative;
+  padding: 4px 18px 0;
+  margin-bottom:60px;
+}
+
+.add_input {
+  position: absolute;
+  top: 400px;
+  left: 58%;
+  display:block;
+  width: 800px;
+  height:40px;
+  border-radius: 20px;
+  position: relative;
+  padding: 4px 18px 0;
+  margin-bottom:60px;
+}
+
+.error{
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #D8000C;
+  background-color: #FFBABA;
+  background-image: url('https://i.imgur.com/GnyDvKN.png');
+}
+
+.success{
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  background-image: url('https://i.imgur.com/Q9BGTuy.png');
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+[type="reset"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 30%;
+  top:630px;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="reset"]:hover {
+	background:#CC4949;
+}
+
+.back_button {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 4%;
+  top:130px;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.back_button:hover {
+	background:#CC4949;
+}
+
+.right_back_button {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 20%;
+  top:130px;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.right_back_button:hover {
+	background:#CC4949;
+}
+
+.submit_button {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 50%;
+  top:630px;
+  background:#1be014;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.submit_button:hover {
+	background:#11ba0b; 
+}
+
+.submit_button_register {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 39%;
+  top:690px;
+  background:#1be014;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.submit_button_register:hover {
+	background:#11ba0b; 
+}
+
+.submit_button_login {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 39%;
+  top:630px;
+  background:#1be014;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.submit_button_login:hover {
+	background:#11ba0b; 
+}
+
+.db_button {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 2%;
+  top:840px;
+  background:#3b69db;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.db_button:hover {
+	background:#1e48b3;
+}
+
+.login_button {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 18%;
+  top:60px;
+  background:#4db7e8;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.login_button:hover {
+	background:#0e8ec9;
+}
+
+.logout_button {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 15%;
+  position: absolute;
+  left: 2%;
+  top:60px;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.logout_button:hover {
+	background:#CC4949;
+}
+
+.table_db {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+
+.db_th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+.db_td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+
+.disabled .db_td {
+  color: #4F5F64;
+}
+
+.tbody_db tr {
+  transition: background 0.25s ease;
+}
+
+.tbody_db tr:hover {
+  background: #014055;
+}
